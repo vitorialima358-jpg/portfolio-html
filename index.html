@@ -1,17 +1,121 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
+    <meta name="description" content="Projeto Portfólio">
+    <meta name="author" content="Generation Brasil">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
+    <title>Meu Perfil</title>
 </head>
+
 <body>
 
-    <h1>Bem-vindo ao meu Portfólio</h1>
+    <!-- Cabeçalho da Página -->
+    <header>
 
-    <p>Olá! Meu nome é Vitória e este é o meu primeiro projeto em HTML.</p>
+        <!-- Título do Cabeçalho -->
+        <h1>Generation Brasil</h1>
 
-    <a href="contato.html">Ir para a página de contato</a>
+        <!-- Menu de Navegação -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+
+        <!-- Seção About -->
+        <section id="about">
+
+            <!-- Título da Seção -->
+            <h2>Vitória Aparecida</h2>
+
+            <!-- Conteúdo da Seção About -->
+            <div class="conteudo">
+
+                <!-- Imagem de Perfil -->
+                <img src="./assets/img/perfil.jpg" alt="Foto de perfil de Vitória">
+
+                <!-- Texto Sobre -->
+                <article class="sobre_texto">
+                    <p>
+                        Sou estudante da área de tecnologia e estou em transição de carreira,
+                        buscando oportunidades para desenvolver minhas habilidades em
+                        desenvolvimento web.
+                    </p>
+
+                    <p>
+                        Atualmente participo do bootcamp da Generation Brasil, onde aprendo
+                        e aplico conhecimentos em HTML, CSS, JavaScript e boas práticas
+                        de desenvolvimento.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- Seção Vídeo (estrutura vazia por enquanto) -->
+        <!-- Seção Video -->
+<section id="video">
+
+    <!-- Título da Seção -->
+    <h2>Vídeo Favorito</h2>
+
+    <!-- Container do Vídeo -->
+    <figure>
+
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/eX-lkN_Zahc?si=Nfk77vP7tMcRQJZZ"
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+        </iframe>
+
+    </figure>
+
+</section>
+
+
+    </main>
+
+    <!-- Rodapé -->
+    <!-- Rodapé da Página (footer) -->
+<!-- Rodapé da Página (footer) -->
+<footer>
+
+    <!-- Seção de Contato - Redes Sociais -->
+    <section id="redes_sociais">
+
+        <a href="https://www.linkedin.com/in/SEU_LINK_AQUI" target="_blank">
+            <img src="assets/img/link2.avif" alt="LinkedIn da Vitória" width="60">
+        </a>
+
+        <a href="https://github.com/SEU_USUARIO" target="_blank">
+            <img src="assets/img/git.png" alt="GitHub da Vitória" width="60">
+        </a>
+
+    </section>
+
+    <!-- Texto do Rodapé -->
+    <h3>
+        Feito com 💙 por Vitória Aparecida – 2026
+    </h3>
+
+</footer>
+
 
 </body>
 </html>
