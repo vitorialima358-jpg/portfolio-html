@@ -7,100 +7,66 @@
     <meta name="description" content="Projeto Portfólio">
     <meta name="author" content="Generation Brasil">
     <meta name="keywords" content="HTML, CSS, JavaScript">
-    <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.svg">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Contato</title>
 </head>
 
 <body>
 
-    <!-- Cabeçalho da Página (header) -->
-    <header>
+<header>
+    <h1>Generation Brasil</h1>
 
-        <!-- Título do cabeçalho -->
-        <h1>Generation Brasil</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+</header>
 
-        <!-- Menu de Navegação -->
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
-        </nav>
+<main class="main_contato">
 
-    </header>
+    <!-- FORMULÁRIO -->
+    <form>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" placeholder="Digite seu nome">
 
-    <!-- Seção Principal da Página (main) -->
-    <main>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" placeholder="Digite seu e-mail">
 
-        <!-- Seção do Formulário -->
-        <form id="formulario" action="#" method="post">
+        <label for="assunto">Assunto</label>
+        <input type="text" id="assunto" placeholder="Digite o assunto">
 
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome">
-            <span></span>
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" placeholder="Digite sua mensagem"></textarea>
 
-            <label for="email">E-mail:</label>
-            <input type="text" id="email" name="email">
-            <span></span>
+        <button type="submit">Enviar</button>
+    </form>
 
-            <label for="assunto">Assunto:</label>
-            <input type="text" id="assunto" name="assunto">
-            <span></span>
+   <article class="article_mapa">
+   <address>
+    <p><strong>São Paulo - SP</strong></p>
+    <p>Brasil</p>
+</address>
 
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem"></textarea>
-
-            <button type="submit">Enviar</button>
-
-        </form>
-
-        <!-- Seção do Google Maps -->
-        <!-- Seção do Google Maps -->
-<article id="mapa">
-
-    <!-- Endereço -->
-    <address>
-        <p>Av. Paulista, 100</p>
-        <p>São Paulo - SP</p>
-    </address>
-
-    <!-- Mapa do Google Maps -->
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.106696296001!2d-46.65390548535577!3d-23.564611167596592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c7f481fd9f%3A0x9982bfde4df54830!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100!5e0!3m2!1spt-BR!2sbr!4v1594056507065!5m2!1spt-BR!2sbr"
-        width="400"
-        height="250"
-        style="border:0;"
-        allowfullscreen
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
-
+   <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.891641167168!2d-46.63330868502153!3d-23.55051968468733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59b7e4c8b6b1%3A0x6d5f8d7d9a6b3f3f!2sAv.%20Paulista%2C%20100%20-%20Bela%20Vista%2C%20São%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1700000000000"
+    width="100%" 
+    height="300" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy">
+</iframe>
 </article>
 
 
-    </main>
+</main>
 
-    <!-- Rodapé da Página (footer) -->
-    <footer>
 
-        <!-- Seção de Contato - Redes Sociais -->
-        <section id="redes_sociais">
-
-            <a href="https://www.linkedin.com/" target="_blank">
-                <img src="assets/img/link2.avif" alt="LinkedIn" width="40">
-            </a>
-
-            <a href="https://github.com/" target="_blank">
-                <img src="assets/img/git.png" alt="GitHub" width="40">
-            </a>
-
-        </section>
-
-        <h3>
-            Feito com 💙 por Vitória Aparecida – 2026
-        </h3>
-
-    </footer>
+<footer>
+    <h3>Feito com 💙 por Vitória Aparecida – 2026</h3>
+</footer>
 
 </body>
 </html>
